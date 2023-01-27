@@ -43,5 +43,7 @@ bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 -
 bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic Kafka_Example_json
 
 # Publish to the Kafka Topic via Console
+
 bin/kafka-console-producer.sh --broker-list localhost:9092 --topic Kafka_Object
+
 bin/kafka-console-producer.sh --broker-list localhost:9092 --topic Kafka_String
