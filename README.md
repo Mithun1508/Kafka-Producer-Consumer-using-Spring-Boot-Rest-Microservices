@@ -1,4 +1,4 @@
-# Kafka-Producer-using-Spring-Boot-Rest-and-Microservices
+# 1) Kafka-Producer-using-Spring-Boot-Rest-and-Microservices
 Apache Kafka is an open-source stream-processing software platform developed by LinkedIn and donated to the Apache Software Foundation, written in Scala and Java. 
 
 # Start Zookeeper
@@ -22,7 +22,7 @@ http://localhost:8080/kafka/trigger-object
 
 http://localhost:8080/kafka/trigger-string
 
-# Kafka-Consumer-using-Spring-Boot-Rest-and-Microservices
+# 2) Kafka-Consumer-using-Spring-Boot-Rest-and-Microservices
 
 # Start Zookeeper
 bin/zookeeper-server-start.sh config/zookeeper.properties
