@@ -1,6 +1,10 @@
 # 1) Kafka-Producer-using-Spring-Boot-Rest-and-Microservices
 Apache Kafka is an open-source stream-processing software platform developed by LinkedIn and donated to the Apache Software Foundation, written in Scala and Java. 
 
+# Working 
+  
+  A client that consumes records from a Kafka cluster. This client transparently handles the failure of Kafka brokers, and transparently adapts as topic partitions it fetches migrate within the cluster. This client also interacts with the broker to allow groups of consumers to load balance consumption using consumer groups. The consumer maintains
+  
 # Start Zookeeper
  
 bin/zookeeper-server-start.sh config/zookeeper.properties
