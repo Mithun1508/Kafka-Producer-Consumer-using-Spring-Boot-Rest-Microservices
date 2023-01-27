@@ -3,7 +3,7 @@ Apache Kafka is an open-source stream-processing software platform developed by 
 
 # Working 
   
-  A client that consumes records from a Kafka cluster. This client transparently handles the failure of Kafka brokers, and transparently adapts as topic partitions it fetches migrate within the cluster. This client also interacts with the broker to allow groups of consumers to load balance consumption using consumer groups. The consumer maintains
+  A client that consumes records from a Kafka cluster. This client transparently handles the failure of Kafka brokers, and transparently adapts as topic partitions it fetches migrate within the cluster. This client also interacts with the broker to allow groups of consumers to load balance consumption using consumer groups. 
   
 # Start Zookeeper
  
